@@ -1,0 +1,1 @@
+python tableinterface %1
