@@ -28,12 +28,12 @@ not: [true: false, false: true]
 ```
 
 ## Links
-[http://webchat.freenode.net/?channels=esoteric&uio=d4](The #Estoeric channel on Freenode) (webchat)
+[The #Estoeric channel on Freenode](http://webchat.freenode.net/?channels=esoteric&uio=d4) (webchat)
 
-[https://docs.google.com/document/d/15IhFJ9patZ-CINalHAyDMTxfdwyopGnkiZBtAljBVYY/edit?usp=sharing](The Specification (perpetual WIP))
+[The Specification (perpetual WIP)](https://docs.google.com/document/d/15IhFJ9patZ-CINalHAyDMTxfdwyopGnkiZBtAljBVYY/edit?usp=sharing)
 
-[http://esolangs.org/wiki/Table](Table on Esolangs)
+[Table on Esolangs](http://esolangs.org/wiki/Table)
 
-[https://en.wikipedia.org/wiki/Giuseppe_Peano](Giuseppe Peano)
+[Giuseppe Peano](https://en.wikipedia.org/wiki/Giuseppe_Peano)
 
-[https://en.wikipedia.org/wiki/Peano_axioms](Peano Axioms)
+[Peano Axioms](https://en.wikipedia.org/wiki/Peano_axioms)
