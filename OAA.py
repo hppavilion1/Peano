@@ -1,4 +1,10 @@
-class OrderedDict:
+def merge(*dicts):
+    result = {}
+    for dictionary in dicts:
+        result.update(dictionary)
+    return result
+
+class OrderedDict: #I realize I could've extended Dict or List or both, but I'm hardcore
     def __init__(self, **kwargs): #Constructor (Note that kwargs does not preserve order)
         '''Construct an ordered dict'''
         self._l = [] #List (for order)
@@ -16,10 +22,8 @@ class OrderedDict:
 
     def extend(self, m):
         '''Append the elements of x to self'''
-        for x in m: #Add each of the kwarg keys to a list and their key/value pairs to a dict
-            if x[0] in self._l:
-                raise ValueError('Tried to add already existing key to OrderedDict: '+x)
-            self._l.append(x)
-            self._d[x] = kwargs[x]
+        self._l = m.keys()
+        self._d = merge(self._d, m)
 
-    
+    def insert(self, i, v):
+        
